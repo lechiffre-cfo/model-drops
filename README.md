@@ -18,4 +18,8 @@ These artifacts are educational decision-support work, not financial, accounting
 
 - `drops/2026-08-11-15-percent-miss/` — Can an agent apply a 15% SaaS revenue miss without corrupting the model?
 
+## Protocols
+
+- `protocols/cfo-agent-evaluation-protocol.md` — A tool-agnostic rubric for testing whether a CFO/finance agent can change a model without destroying its audit trail.
+
 Built with Layerz where noted. Synthetic data only unless explicitly sourced.
