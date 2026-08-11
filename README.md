@@ -22,4 +22,10 @@ These artifacts are educational decision-support work, not financial, accounting
 
 - `protocols/cfo-agent-evaluation-protocol.md` — A tool-agnostic rubric for testing whether a CFO/finance agent can change a model without destroying its audit trail.
 
+## Reference Pages
+
+- CFO agent evaluation: https://lechiffre.cc/cfo-agent-evaluation/
+- Finance agent validation checklist: https://lechiffre.cc/finance-agent-validation-checklist/
+- AI financial-modeling agent: https://lechiffre.cc/ai-financial-modeling-agent/
+
 Built with Layerz where noted. Synthetic data only unless explicitly sourced.
