@@ -1,0 +1,32 @@
+{
+  "artifact": "the-15-percent-miss",
+  "date": "2026-08-10",
+  "data_type": "synthetic",
+  "currency": "EUR",
+  "inputs": {
+    "starting_cash": 180000,
+    "gross_margin": 0.85,
+    "monthly_operating_expense": 67000,
+    "cash_guardrail": 90000,
+    "plan_revenue": [50000, 55000, 60000, 66000, 72000, 79000],
+    "scenario_multipliers": {
+      "plan": 1,
+      "downside_15_percent_miss": 0.85,
+      "upside_10_percent_beat": 1.1
+    }
+  },
+  "outputs": {
+    "plan": {
+      "closing_cash": [155500, 135250, 119250, 108350, 102550, 102700],
+      "first_guardrail_breach_month": null
+    },
+    "downside_15_percent_miss": {
+      "closing_cash": [149125, 121862.5, 98212.5, 78897.5, 63917.5, 53995],
+      "first_guardrail_breach_month": 4
+    },
+    "upside_10_percent_beat": {
+      "closing_cash": [159750, 144175, 133275, 127985, 128305, 135170],
+      "first_guardrail_breach_month": null
+    }
+  }
+}
